@@ -95,7 +95,7 @@ curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 sudo apt-get install -y nodejs postgresql
 
 # Clone and run the script
-git clone https://github.com/shell-craft-dev/pern-setup.git
+git clone https://github.com/rosettascript/pern-setup.git
 cd pern-setup
 ./run.sh
 ```
@@ -111,7 +111,7 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocola
 choco install nodejs postgresql git -y
 
 # Clone and run the PowerShell script
-git clone https://github.com/shell-craft-dev/pern-setup.git
+git clone https://github.com/rosettascript/pern-setup.git
 cd pern-setup
 .\run.ps1
 ```

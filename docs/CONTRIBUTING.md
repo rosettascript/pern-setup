@@ -31,12 +31,12 @@ This project adheres to a code of conduct. By participating, you are expected to
 1. Fork the repository on GitHub
 2. Clone your fork locally:
    ```bash
-   git clone https://github.com/shell-craft-dev/pern-setup.git
+   git clone https://github.com/rosettascript/pern-setup.git
    cd pern-setup
    ```
 3. Add the upstream repository:
    ```bash
-   git remote add upstream https://github.com/original-org/pern-setup.git
+   git remote add upstream https://github.com/rosettascript/pern-setup.git
    ```
 
 ## Development Setup
