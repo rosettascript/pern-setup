@@ -1,0 +1,248 @@
+{
+  "starter": {
+    "server": {
+      "dependencies": {
+        "express": "^4.18.2",
+        "cors": "^2.8.5",
+        "helmet": "^7.1.0",
+        "morgan": "^1.10.0",
+        "dotenv": "^16.3.1",
+        "pg": "^8.11.3",
+        "bcryptjs": "^2.4.3",
+        "jsonwebtoken": "^9.0.2",
+        "express-rate-limit": "^7.1.5",
+        "express-validator": "^7.0.1",
+        "compression": "^1.7.4",
+        "cookie-parser": "^1.4.6"
+      },
+      "devDependencies": {
+        "nodemon": "^3.0.2",
+        "jest": "^29.7.0",
+        "supertest": "^6.3.3",
+        "cross-env": "^7.0.3",
+        "@types/node": "^20.10.5",
+        "@types/express": "^4.17.21",
+        "@types/cors": "^2.8.17",
+        "@types/morgan": "^1.9.9",
+        "@types/bcryptjs": "^2.4.6",
+        "@types/jsonwebtoken": "^9.0.5",
+        "@types/compression": "^1.7.5",
+        "@types/cookie-parser": "^1.4.6",
+        "typescript": "^5.3.3",
+        "ts-node": "^10.9.2"
+      }
+    },
+    "client": {
+      "dependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-router-dom": "^6.20.1",
+        "axios": "^1.6.2",
+        "@tanstack/react-query": "^5.17.9",
+        "react-hook-form": "^7.48.2",
+        "react-hot-toast": "^2.4.1",
+        "clsx": "^2.0.0",
+        "tailwind-merge": "^2.2.0"
+      },
+      "devDependencies": {
+        "@testing-library/react": "^13.4.0",
+        "@testing-library/jest-dom": "^6.1.5",
+        "@testing-library/user-event": "^14.5.1",
+        "react-scripts": "5.0.1",
+        "@types/react": "^18.2.45",
+        "@types/react-dom": "^18.2.18",
+        "typescript": "^5.3.3",
+        "tailwindcss": "^3.4.0",
+        "autoprefixer": "^10.4.16",
+        "postcss": "^8.4.32"
+      }
+    },
+    "shared": {
+      "dependencies": {
+        "zod": "^3.22.4"
+      },
+      "devDependencies": {
+        "typescript": "^5.3.3"
+      }
+    }
+  },
+  "api-only": {
+    "server": {
+      "dependencies": {
+        "express": "^4.18.2",
+        "cors": "^2.8.5",
+        "helmet": "^7.1.0",
+        "morgan": "^1.10.0",
+        "dotenv": "^16.3.1",
+        "pg": "^8.11.3",
+        "bcryptjs": "^2.4.3",
+        "jsonwebtoken": "^9.0.2",
+        "express-rate-limit": "^7.1.5",
+        "express-validator": "^7.0.1",
+        "swagger-ui-express": "^5.0.0",
+        "swagger-jsdoc": "^6.2.8",
+        "compression": "^1.7.4",
+        "cookie-parser": "^1.4.6"
+      },
+      "devDependencies": {
+        "nodemon": "^3.0.2",
+        "jest": "^29.7.0",
+        "supertest": "^6.3.3",
+        "cross-env": "^7.0.3"
+      }
+    }
+  },
+  "fullstack": {
+    "server": {
+      "dependencies": {
+        "express": "^4.18.2",
+        "cors": "^2.8.5",
+        "helmet": "^7.1.0",
+        "morgan": "^1.10.0",
+        "dotenv": "^16.3.1",
+        "pg": "^8.11.3",
+        "bcryptjs": "^2.4.3",
+        "jsonwebtoken": "^9.0.2",
+        "express-rate-limit": "^7.1.5",
+        "express-validator": "^7.0.1",
+        "multer": "^1.4.5-lts.1",
+        "nodemailer": "^6.9.7",
+        "redis": "^4.6.10",
+        "express-session": "^1.17.3",
+        "connect-redis": "^7.1.0",
+        "compression": "^1.7.4",
+        "cookie-parser": "^1.4.6",
+        "winston": "^3.11.0",
+        "joi": "^17.12.0"
+      },
+      "devDependencies": {
+        "nodemon": "^3.0.2",
+        "jest": "^29.7.0",
+        "supertest": "^6.3.3",
+        "cross-env": "^7.0.3",
+        "@types/node": "^20.10.5",
+        "@types/express": "^4.17.21",
+        "@types/cors": "^2.8.17",
+        "@types/morgan": "^1.9.9",
+        "@types/bcryptjs": "^2.4.6",
+        "@types/jsonwebtoken": "^9.0.5",
+        "@types/multer": "^1.4.11",
+        "@types/nodemailer": "^6.4.14",
+        "@types/express-session": "^1.18.0",
+        "@types/compression": "^1.7.5",
+        "@types/cookie-parser": "^1.4.6",
+        "typescript": "^5.3.3",
+        "ts-node": "^10.9.2"
+      }
+    },
+    "client": {
+      "dependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-router-dom": "^6.20.1",
+        "axios": "^1.6.2",
+        "@tanstack/react-query": "^5.17.9",
+        "react-hook-form": "^7.48.2",
+        "react-hot-toast": "^2.4.1",
+        "framer-motion": "^10.16.16",
+        "clsx": "^2.0.0",
+        "tailwind-merge": "^2.2.0",
+        "lucide-react": "^0.303.0",
+        "react-dropzone": "^14.2.3",
+        "date-fns": "^3.0.6"
+      },
+      "devDependencies": {
+        "@testing-library/react": "^13.4.0",
+        "@testing-library/jest-dom": "^6.1.5",
+        "@testing-library/user-event": "^14.5.1",
+        "react-scripts": "5.0.1",
+        "@types/react": "^18.2.45",
+        "@types/react-dom": "^18.2.18",
+        "typescript": "^5.3.3",
+        "tailwindcss": "^3.4.0",
+        "autoprefixer": "^10.4.16",
+        "postcss": "^8.4.32"
+      }
+    },
+    "shared": {
+      "dependencies": {
+        "zod": "^3.22.4"
+      },
+      "devDependencies": {
+        "typescript": "^5.3.3"
+      }
+    }
+  },
+  "microservices": {
+    "api-gateway": {
+      "dependencies": {
+        "express": "^4.18.2",
+        "cors": "^2.8.5",
+        "helmet": "^7.1.0",
+        "morgan": "^1.10.0",
+        "dotenv": "^16.3.1",
+        "http-proxy-middleware": "^2.0.6",
+        "express-rate-limit": "^7.1.5",
+        "compression": "^1.7.4"
+      },
+      "devDependencies": {
+        "nodemon": "^3.0.2",
+        "jest": "^29.7.0",
+        "supertest": "^6.3.3"
+      }
+    },
+    "auth-service": {
+      "dependencies": {
+        "express": "^4.18.2",
+        "cors": "^2.8.5",
+        "helmet": "^7.1.0",
+        "morgan": "^1.10.0",
+        "dotenv": "^16.3.1",
+        "pg": "^8.11.3",
+        "bcryptjs": "^2.4.3",
+        "jsonwebtoken": "^9.0.2",
+        "express-validator": "^7.0.1",
+        "redis": "^4.6.10"
+      },
+      "devDependencies": {
+        "nodemon": "^3.0.2",
+        "jest": "^29.7.0",
+        "supertest": "^6.3.3"
+      }
+    },
+    "user-service": {
+      "dependencies": {
+        "express": "^4.18.2",
+        "cors": "^2.8.5",
+        "helmet": "^7.1.0",
+        "morgan": "^1.10.0",
+        "dotenv": "^16.3.1",
+        "pg": "^8.11.3",
+        "express-validator": "^7.0.1"
+      },
+      "devDependencies": {
+        "nodemon": "^3.0.2",
+        "jest": "^29.7.0",
+        "supertest": "^6.3.3"
+      }
+    },
+    "client": {
+      "dependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-router-dom": "^6.20.1",
+        "axios": "^1.6.2",
+        "react-query": "^3.39.3",
+        "react-hook-form": "^7.48.2",
+        "react-hot-toast": "^2.4.1",
+        "framer-motion": "^10.16.16"
+      },
+      "devDependencies": {
+        "@testing-library/react": "^13.4.0",
+        "@testing-library/jest-dom": "^6.1.5",
+        "@testing-library/user-event": "^14.5.1",
+        "react-scripts": "5.0.1"
+      }
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "name": "pern-setup",
+  "version": "1.0.0",
+  "description": "🚀 Create production-ready PERN Stack apps in 2 minutes. Skip weeks of setup with 5 professional templates, built-in security, and modern dev tools. PostgreSQL + Express + React + Node.js boilerplate generator.",                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+  "main": "run.sh",
+  "scripts": {
+    "setup": "./run.sh",
+    "test": "bash lib/validator.sh",
+    "docs": "echo 'Documentation available in docs/ folder'"
+  },
+  "keywords": [
+    "pern-stack",
+    "pern",
+    "postgresql",
+    "express",
+    "react",
+    "nodejs",
+    "node.js",
+    "typescript",
+    "fullstack",
+    "full-stack",
+    "boilerplate",
+    "generator",
+    "starter",
+    "template",
+    "cli",
+    "setup",
+    "development",
+    "web-development",
+    "api",
+    "backend",
+    "frontend",
+    "microservices",
+    "docker",
+    "security",
+    "jwt",
+    "authentication",
+    "tailwind",
+    "vite",
+    "testing",
+    "jest",
+    "eslint",
+    "prettier"
+  ],
+  "author": "PERN Setup Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rosettascript/pern-setup.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rosettascript/pern-setup/issues"
+  },
+  "homepage": "https://github.com/rosettascript/pern-setup#readme",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "os": [
+    "linux",
+    "darwin",
+    "win32"
+  ],
+  "features": {
+    "templates": [
+      "starter",
+      "api-only", 
+      "fullstack",
+      "microservices",
+      "custom"
+    ],
+    "database": [
+      "postgresql",
+      "redis"
+    ],
+    "security": [
+      "jwt",
+      "cors",
+      "helmet",
+      "rate-limiting"
+    ],
+    "devtools": [
+      "eslint",
+      "prettier",
+      "jest",
+      "docker",
+      "git-hooks"
+    ]
+  },
+  "changelog": {
+    "1.0.0": [
+      "Initial release with complete PERN stack setup",
+      "Enhanced client structure with comprehensive component organization",
+      "Improved server structure with better separation of concerns",
+      "Added shared folder for common types and utilities",
+      "Enhanced documentation structure with detailed guides",
+      "Improved Docker support with multi-stage builds",
+      "Better testing organization with integration and unit tests",
+      "Enhanced development tools and CI/CD templates",
+      "Updated all templates to use the new structure",
+      "Improved workspace management and monorepo support"
+    ]
+  }
+}

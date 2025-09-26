@@ -1,0 +1,35 @@
+{
+  "nodejs": "18.18.0",
+  "npm": "9.8.1",
+  "postgresql": "16",
+  "redis": "7.2.0",
+  "nodeMinimum": "16.0.0",
+  "nodeMaximum": "20.0.0",
+  "recommended": {
+    "nodejs": "18.18.0",
+    "npm": "9.8.1",
+    "postgresql": "16",
+    "redis": "7.2.0"
+  },
+  "lts": {
+    "nodejs": "18.18.0",
+    "postgresql": "15.4"
+  },
+  "latest": {
+    "nodejs": "20.10.0",
+    "npm": "10.2.4",
+    "postgresql": "16.1",
+    "redis": "7.2.0"
+  },
+  "compatibility": {
+    "nodejs": {
+      "min": "16.0.0",
+      "max": "20.0.0",
+      "recommended": "18.18.0"
+    },
+    "postgresql": {
+      "min": "12.0.0",
+      "recommended": "15.4"
+    }
+  }
+}

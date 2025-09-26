@@ -1,0 +1,30 @@
+{
+  "name": "microservices-project",
+  "version": "1.0.0",
+  "description": "Microservices application",
+  "private": true,
+  "workspaces": [
+    "client",
+    "api-gateway",
+    "auth-service",
+    "user-service",
+    "shared"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev:client\" \"npm run dev:api-gateway\" \"npm run dev:auth-service\" \"npm run dev:user-service\"",
+    "dev:client": "npm run dev --workspace=client",
+    "dev:api-gateway": "npm run dev --workspace=api-gateway",
+    "dev:auth-service": "npm run dev --workspace=auth-service",
+    "dev:user-service": "npm run dev --workspace=user-service",
+    "build": "npm run build --workspace=shared && npm run build --workspace=client && npm run build --workspace=api-gateway && npm run build --workspace=auth-service && npm run build --workspace=user-service",
+    "test": "npm run test --workspace=client && npm run test --workspace=api-gateway && npm run test --workspace=auth-service && npm run test --workspace=user-service",
+    "lint": "npm run lint --workspace=client && npm run lint --workspace=api-gateway && npm run lint --workspace=auth-service && npm run lint --workspace=user-service"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  }
+}
